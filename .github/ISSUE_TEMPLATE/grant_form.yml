@@ -22,7 +22,7 @@ body:
       label: Project Title
       description: Provide a title for your project
     validations:
-      required: false
+      required: true
 
   - type: textarea
     id: project_description
@@ -30,7 +30,7 @@ body:
       label: Project Description
       description: Provide a brief description of your project and its objectives
     validations:
-      required: false
+      required: true
 
   - type: dropdown
     id: category
@@ -48,15 +48,7 @@ body:
         - AI Integration
         - Surprise 🤫
     validations:
-      required: false
-
-  - type: input
-    id: funding_amount_requested
-    attributes:
-      label: Funding Amount Requested
-      description: Specify the amount of funding you are requesting for your project
-    validations:
-      required: false
+      required: true
 
   - type: textarea
     id: timeline
@@ -64,7 +56,7 @@ body:
       label: Timeline
       description: Outline the estimated timeline for your project, including key milestones and deliverables
     validations:
-      required: false
+      required: true
 
   - type: textarea
     id: project_plan
@@ -72,7 +64,7 @@ body:
       label: Project Plan
       description: Describe your project plan and how you intend to achieve your goals. Include any relevant details such as methodologies, technologies, or resources required
     validations:
-      required: false
+      required: true
 
   - type: textarea
     id: project_impact
@@ -80,7 +72,7 @@ body:
       label: Project Impact
       description: Explain the potential impact of your project. How will it benefit the community or target audience? What problem does it address?
     validations:
-      required: false
+      required: true
 
   - type: textarea
     id: budget_breakdown
@@ -94,7 +86,7 @@ body:
       label: Team Information
       description: Introduce your project team and provide a brief overview of their relevant skills and experience
     validations:
-      required: false
+      required: true
 
   - type: textarea
     id: previous_work
@@ -102,7 +94,7 @@ body:
       label: Previous Work
       description: If applicable, share any previous work or achievements that demonstrate your team's capabilities or progress related to the project
     validations:
-      required: false
+      required: true
 
   - type: textarea
     id: additional_information
@@ -110,7 +102,7 @@ body:
       label: Additional Information
       description: Include any additional information or supporting documents that you think would be helpful in evaluating your grant application
     validations:
-      required: false
+      required: true
 
   - type: checkboxes
     id: agreement
