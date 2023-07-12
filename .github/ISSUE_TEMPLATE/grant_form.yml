@@ -1,7 +1,7 @@
 name: Grant Application
 description: Apply for a grant
 
-title: "[Grant Application]: "
+title: "Awesome Project Name"
 labels: ["grant", "application"]
 assignees:
   - dantaik
@@ -15,16 +15,6 @@ body:
     attributes:
       value: |
         Thank you for your interest in applying for a grant! Please fill out the following information:
-
-  - type: input
-    id: project_title
-    attributes:
-      label: Project Title
-      description: Provide a title for your project
-      placeholder: |
-        Awesome Taiko Project
-    validations:
-      required: true
 
   - type: textarea
     id: project_description
