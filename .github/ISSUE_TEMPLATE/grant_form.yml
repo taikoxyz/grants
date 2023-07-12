@@ -34,12 +34,15 @@ body:
       label: Category
       description: Select the category that best fits your project
       options:
-        - Development:Application
-        - Development:Tooling
-        - Development:Protocol
-        - Development:Infrastructure
-        - Community:Education
-        - Community:Events
+        - Zero-Knowledge Proofs (ZKP)
+        - Proposer Optimization
+        - Alternative Proposer-Prover Tokenomics
+        - Proof Markets
+        - Social/Messaging dApps
+        - NFT Bridge & Marketplace
+        - Games
+        - AI Integration
+        - Surprise 🤫
 
   - type: input
     id: funding_amount_requested
