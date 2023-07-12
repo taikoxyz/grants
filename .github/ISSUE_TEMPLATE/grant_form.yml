@@ -141,7 +141,16 @@ body:
     id: agreement
     attributes:
       label: Agreement
-      description: By submitting this grant application, you agree to comply with the terms and conditions of the grants program
+      description: |
+        By submitting this grant application, you agree to comply with the terms and conditions of the grants program.
+
+        1. Grantees and Taiko Labs will establish and sign an agreement detailing the expectations and responsibilities of both parties.
+        2. Before execution of the agreement, discretion for changes in the program rest exclusively with Taiko Labs.
+        3. Taiko Labs or its associated entities receive priority to invest up to $250K USD in a subsequent funding round if the project fundraises within one year post-grant acceptance.
+        4. Grantees can apply for grants from other projects, given all other requirements are met.
+        5. Projects involving dApps must choose Taiko as one of their very first platforms, but they can also deploy elsewhere if they see fit. We do look favourably upon Taiko-tailored projects: those that truly take advantage of Taiko’s strengths and design decisions, such as Ethereum-equivalence and permissionless proposing and proving. 
+        6. Unless explicitly stated otherwise, all code should be open-sourced from the project's inception.
+
       options:
         - label: I agree to comply with the terms and conditions of the grants program
           required: true
