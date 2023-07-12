@@ -58,14 +58,15 @@ body:
     id: timeline
     attributes:
       label: Timeline
-      description: Outline the estimated timeline for your project, including key milestones and deliverables
+      description: |
+        Outline the estimated timeline for your project, including key milestones and deliverables.
+        A project’s timeline for completion should be no longer than 6 months. It can be shorter than 6 months. Projects that require more time may find fit with alternative programs we roll out.
       placeholder: |
         [DATE]: [MILESTONE]
-
         e.g.
-        Q3 2023: Deploy on testnet
-        Q4 2023: Audit all smart contracts
-        Q1 2024: Deploy on mainnet
+        1 July 2023: Deploy on testnet
+        1 September 2023: Audit all smart contracts
+        1 November 2023: Deploy on mainnet
 
     validations:
       required: true
