@@ -21,12 +21,16 @@ body:
     attributes:
       label: Project Title
       description: Provide a title for your project
+    validations:
+      required: false
 
   - type: textarea
     id: project_description
     attributes:
       label: Project Description
       description: Provide a brief description of your project and its objectives
+    validations:
+      required: false
 
   - type: dropdown
     id: category
@@ -43,30 +47,40 @@ body:
         - Games
         - AI Integration
         - Surprise 🤫
+    validations:
+      required: false
 
   - type: input
     id: funding_amount_requested
     attributes:
       label: Funding Amount Requested
       description: Specify the amount of funding you are requesting for your project
+    validations:
+      required: false
 
-  - type: input
+  - type: textarea
     id: timeline
     attributes:
       label: Timeline
       description: Outline the estimated timeline for your project, including key milestones and deliverables
+    validations:
+      required: false
 
   - type: textarea
     id: project_plan
     attributes:
       label: Project Plan
       description: Describe your project plan and how you intend to achieve your goals. Include any relevant details such as methodologies, technologies, or resources required
+    validations:
+      required: false
 
   - type: textarea
     id: project_impact
     attributes:
       label: Project Impact
       description: Explain the potential impact of your project. How will it benefit the community or target audience? What problem does it address?
+    validations:
+      required: false
 
   - type: textarea
     id: budget_breakdown
@@ -79,18 +93,24 @@ body:
     attributes:
       label: Team Information
       description: Introduce your project team and provide a brief overview of their relevant skills and experience
+    validations:
+      required: false
 
   - type: textarea
     id: previous_work
     attributes:
       label: Previous Work
       description: If applicable, share any previous work or achievements that demonstrate your team's capabilities or progress related to the project
+    validations:
+      required: false
 
   - type: textarea
     id: additional_information
     attributes:
       label: Additional Information
       description: Include any additional information or supporting documents that you think would be helpful in evaluating your grant application
+    validations:
+      required: false
 
   - type: checkboxes
     id: agreement
