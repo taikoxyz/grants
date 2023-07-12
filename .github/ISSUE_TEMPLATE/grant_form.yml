@@ -4,7 +4,11 @@ description: Apply for a grant
 title: "[Grant Application]: "
 labels: ["grant", "application"]
 assignees:
-  - octocat
+  - dantaik
+  - d1onys1us
+  - 2manslkh
+  - MarcusWentz
+  - mfinestone
 
 body:
   - type: markdown
