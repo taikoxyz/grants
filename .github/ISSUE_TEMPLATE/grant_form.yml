@@ -1,0 +1,95 @@
+name: Grant Application
+description: Apply for a grant
+
+title: "[Grant Application]: "
+labels: ["grant", "application"]
+assignees:
+  - octocat
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your interest in applying for a grant! Please fill out the following information:
+
+  - type: input
+    id: project_title
+    attributes:
+      label: Project Title
+      description: Provide a title for your project
+
+  - type: textarea
+    id: project_description
+    attributes:
+      label: Project Description
+      description: Provide a brief description of your project and its objectives
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Select the category that best fits your project
+      options:
+        - Development:Application
+        - Development:Tooling
+        - Development:Protocol
+        - Development:Infrastructure
+        - Community:Education
+        - Community:Events
+
+  - type: input
+    id: funding_amount_requested
+    attributes:
+      label: Funding Amount Requested
+      description: Specify the amount of funding you are requesting for your project
+
+  - type: input
+    id: timeline
+    attributes:
+      label: Timeline
+      description: Outline the estimated timeline for your project, including key milestones and deliverables
+
+  - type: textarea
+    id: project_plan
+    attributes:
+      label: Project Plan
+      description: Describe your project plan and how you intend to achieve your goals. Include any relevant details such as methodologies, technologies, or resources required
+
+  - type: textarea
+    id: project_impact
+    attributes:
+      label: Project Impact
+      description: Explain the potential impact of your project. How will it benefit the community or target audience? What problem does it address?
+
+  - type: textarea
+    id: budget_breakdown
+    attributes:
+      label: Budget Breakdown
+      description: Provide a breakdown of how the funding will be allocated. List the major expense categories and their respective amounts
+
+  - type: textarea
+    id: team_information
+    attributes:
+      label: Team Information
+      description: Introduce your project team and provide a brief overview of their relevant skills and experience
+
+  - type: textarea
+    id: previous_work
+    attributes:
+      label: Previous Work
+      description: If applicable, share any previous work or achievements that demonstrate your team's capabilities or progress related to the project
+
+  - type: textarea
+    id: additional_information
+    attributes:
+      label: Additional Information
+      description: Include any additional information or supporting documents that you think would be helpful in evaluating your grant application
+
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: Agreement
+      description: By submitting this grant application, you agree to comply with the terms and conditions of the grants program
+      options:
+        - label: I agree to comply with the terms and conditions of the grants program
+          required: true
