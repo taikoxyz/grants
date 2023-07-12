@@ -21,6 +21,8 @@ body:
     attributes:
       label: Project Title
       description: Provide a title for your project
+      placeholder: |
+        Awesome Taiko Project
     validations:
       required: true
 
@@ -29,6 +31,8 @@ body:
     attributes:
       label: Project Description
       description: Provide a brief description of your project and its objectives
+      placeholder: |
+        This project aims to...
     validations:
       required: true
 
@@ -55,6 +59,14 @@ body:
     attributes:
       label: Timeline
       description: Outline the estimated timeline for your project, including key milestones and deliverables
+      placeholder: |
+        [DATE]: [MILESTONE]
+
+        e.g.
+        Q3 2023: Deploy on testnet
+        Q4 2023: Audit all smart contracts
+        Q1 2024: Deploy on mainnet
+
     validations:
       required: true
 
@@ -63,6 +75,8 @@ body:
     attributes:
       label: Project Plan
       description: Describe your project plan and how you intend to achieve your goals. Include any relevant details such as methodologies, technologies, or resources required
+      placeholder: |
+        We will build a... using...
     validations:
       required: true
 
@@ -71,6 +85,8 @@ body:
     attributes:
       label: Project Impact
       description: Explain the potential impact of your project. How will it benefit the community or target audience? What problem does it address?
+      placeholder: |
+        Users will be able to... which will...
     validations:
       required: true
 
@@ -85,6 +101,23 @@ body:
     attributes:
       label: Team Information
       description: Introduce your project team and provide a brief overview of their relevant skills and experience
+      placeholder: |
+        Alice: Project Lead
+        - 5 years of experience in...
+        Bob: Developer
+        - 3 years of experience in...
+        Charlie: Designer
+        - 2 years of experience in...
+    validations:
+      required: true
+
+  - type: input
+    id: point_of_contact
+    attributes:
+      label: Point of Contact
+      description: Let us know how we may contact you
+      placeholder: |
+        tg: @zkenk | discord: zKenk | email: keng@taiko.xyz
     validations:
       required: true
 
@@ -94,7 +127,7 @@ body:
       label: Previous Work
       description: If applicable, share any previous work or achievements that demonstrate your team's capabilities or progress related to the project
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: additional_information
@@ -102,7 +135,7 @@ body:
       label: Additional Information
       description: Include any additional information or supporting documents that you think would be helpful in evaluating your grant application
     validations:
-      required: true
+      required: false
 
   - type: checkboxes
     id: agreement
