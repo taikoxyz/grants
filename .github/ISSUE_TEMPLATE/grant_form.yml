@@ -40,7 +40,8 @@ body:
         - NFT Bridge & Marketplace
         - Games
         - AI Integration
-        - Surprise 🤫
+        - Education & Community Efforts
+        - Surprise Us 🤫
     validations:
       required: true
 
@@ -50,13 +51,12 @@ body:
       label: Timeline
       description: |
         Outline the estimated timeline for your project, including key milestones and deliverables.
-        A project’s timeline for completion should be no longer than 6 months. It can be shorter than 6 months. Projects that require more time may find fit with alternative programs we roll out.
+        A project’s timeline for completion should be no longer than 6 months. It can be shorter than 6 months. Milestones should be present for each 2-month interval of your project
       placeholder: |
         [DATE]: [MILESTONE]
-        e.g.
-        1 July 2023: Deploy on testnet
-        1 September 2023: Audit all smart contracts
-        1 November 2023: Deploy on mainnet
+        e.g. Project expected to take 4 months for completion, with an assumed August 15th start date.
+        15 October 2023: Detailed deliverable
+        15 December 2023: Detailed deliverable of completion
     validations:
       required: true
 
@@ -64,7 +64,7 @@ body:
     id: project_plan
     attributes:
       label: Project Plan
-      description: Describe your project plan and how you intend to achieve your goals. Include any relevant details such as methodologies, technologies, or resources required
+      description: Describe your project plan and how you intend to achieve your goals. Include any relevant details such as methodologies, technologies, or resources required. Please also mention longer term goals, such as how your project may become sustainable, if applicable
       placeholder: |
         We will build a... using...
     validations:
@@ -81,16 +81,10 @@ body:
       required: true
 
   - type: textarea
-    id: budget_breakdown
-    attributes:
-      label: Budget Breakdown
-      description: Provide a breakdown of how the funding will be allocated. List the major expense categories and their respective amounts
-
-  - type: textarea
     id: team_information
     attributes:
       label: Team Information
-      description: Introduce your project team and provide a brief overview of their relevant skills and experience
+      description: Introduce your project team and provide a brief overview of their relevant skills and experience. Link to their GitHub, Twitter, or relevant profiles
       placeholder: |
         Alice: Project Lead
         - 5 years of experience in...
