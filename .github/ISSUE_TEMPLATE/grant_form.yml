@@ -1,21 +1,12 @@
-name: Grant Application
-description: Apply for a grant
-
-title: "Awesome Project Name"
-labels: ["grant", "application"]
-assignees:
-  - dantaik
-  - d1onys1us
-  - 2manslkh
-  - MarcusWentz
-  - mfinestone
-
+name: "Grant application"
+description: "Apply for a grant"
+title: "Add project name here"
+labels: ["type.grant"]
 body:
   - type: markdown
     attributes:
       value: |
         Thank you for your interest in applying for a grant! Please fill out the following information:
-
   - type: textarea
     id: project_description
     attributes:
@@ -25,7 +16,6 @@ body:
         This project aims to...
     validations:
       required: true
-
   - type: dropdown
     id: category
     attributes:
@@ -44,7 +34,6 @@ body:
         - Surprise Us 🤫
     validations:
       required: true
-
   - type: textarea
     id: timeline
     attributes:
@@ -59,7 +48,6 @@ body:
         15 December 2023: Detailed deliverable of completion
     validations:
       required: true
-
   - type: textarea
     id: project_plan
     attributes:
@@ -69,7 +57,6 @@ body:
         We will build a... using...
     validations:
       required: true
-
   - type: textarea
     id: project_impact
     attributes:
@@ -79,7 +66,6 @@ body:
         Users will be able to... which will...
     validations:
       required: true
-
   - type: textarea
     id: team_information
     attributes:
@@ -94,7 +80,6 @@ body:
         - 2 years of experience in...
     validations:
       required: true
-
   - type: input
     id: point_of_contact
     attributes:
@@ -104,7 +89,6 @@ body:
         tg: @zkenk | discord: zKenk | email: keng@taiko.xyz
     validations:
       required: true
-
   - type: textarea
     id: previous_work
     attributes:
@@ -112,7 +96,6 @@ body:
       description: If applicable, share any previous work or achievements that demonstrate your team's capabilities or progress related to the project
     validations:
       required: false
-
   - type: textarea
     id: additional_information
     attributes:
@@ -120,7 +103,6 @@ body:
       description: Include any additional information or supporting documents that you think would be helpful in evaluating your grant application
     validations:
       required: false
-
   - type: checkboxes
     id: agreement
     attributes:
@@ -134,7 +116,6 @@ body:
         4. Grantees can apply for grants from other projects, given all other requirements are met.
         5. Projects involving dApps must choose Taiko as one of their very first platforms, but they can also deploy elsewhere if they see fit. We do look favourably upon Taiko-tailored projects: those that truly take advantage of Taiko’s strengths and design decisions, such as Ethereum-equivalence and permissionless proposing and proving. 
         6. Unless explicitly stated otherwise, all code should be open-sourced from the project's inception.
-
       options:
         - label: I agree to comply with the terms and conditions of the grants program
           required: true
